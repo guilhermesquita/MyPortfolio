@@ -10,7 +10,7 @@
 
 O site é composto por cinco seções:
 
-- **Home:** Nele temos uma breve apresentação do desenvolver e dos links acessíveis;
+- **Home:** Nele temos uma breve apresentação do desenvolvedor e dos links acessíveis;
 - **About:** Nessa seção tenho uma descrição dizendo um pouco sobre quem sou e de breves experiências;
 - **Tech Stack:** Nele apresentamos meus conhecimentos em algumas linguagens como o foco no front-end;
 - **Projects:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub e também às suas pré-visualizações;
