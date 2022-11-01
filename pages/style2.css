@@ -236,3 +236,67 @@ a{
     flex-direction: column;
     gap: 12px;
 }
+
+/*------------CONTATO--------------*/
+
+.main4{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 250px;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #42446E;
+    font-size: 25px;
+    width: 1000px;
+    gap: 220px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mail{
+    background: -webkit-linear-gradient(left, #13B0F5 0%, #E70FAA 100%);
+    background: linear-gradient(to right, #13B0F5 0%, #E70FAA 100%);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.mail{
+    cursor: pointer;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 1px #EBEAED;
+}
+
+.tel{
+    font-size: 10px;
+    color: #42446E;
+}
+
+#ftr{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 10px
+}
+
+
+
+/*------------SCROLLBAR--------------*/
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #1E0E62;
+}
