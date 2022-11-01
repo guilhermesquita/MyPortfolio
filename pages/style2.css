@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 *{
     margin: 0;
@@ -99,6 +100,15 @@ a{
     padding-bottom: 20px;
 }
 
+.work-text2{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    color: #666666;
+    border-bottom: solid 1px #EBEAED;
+    padding-bottom: 20px;
+}
+
 .infos{
     display: flex;
     justify-content: space-between;
@@ -114,4 +124,115 @@ a{
     display: flex;
     justify-content: space-between;
     
+}
+
+/*------------TECH STACK--------------*/
+
+#text-about3{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 250px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #42446E;
+    font-size: 25px;
+    width: 100%;
+    gap: 120px;
+}
+
+.stacks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 765px;
+}
+
+/*------------PROJECTS--------------*/
+
+.projects{
+    display: flex;
+    gap: 25px;
+}
+
+.pj{
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 50px #e2d9d9;
+    width: 230px;
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.inform{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-weight: 500;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.txt{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 11px;
+    padding-left: 13px
+}
+
+.tech{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 11px;
+    padding-left: 13px;
+    color: #42446E;
+}
+
+.sp{
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.preview{
+    display: flex;
+    font-size: 12px;
+    color: black;
+    text-decoration: underline;
+    align-items: center;
+    padding-left: 13px;
+    gap: 5px;
+}
+
+.linkar{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.codeview{
+    display: flex;
+    font-size: 12px;
+    padding-left: 8px;
+    color: black;
+    text-decoration: underline;
+    gap: 5px;
+}
+
+.infinal{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
