@@ -67,6 +67,7 @@ a{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
     width: 100%;
+    visibility: hidden;
 }
 
 .guirmes{

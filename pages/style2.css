@@ -69,6 +69,7 @@ a{
     font-size: 25px;
     width: 100%;
     gap: 50px;
+    /* visibility: hidden; */
 }
 
 .about{
@@ -156,6 +157,16 @@ a{
     width: 765px;
 }
 
+#stack1{
+    animation: bounceInUp;
+    animation-duration: 2s;
+}
+
+#stack2{
+    animation: bounceInUp;
+    animation-duration: 3s;
+}
+
 /*------------PROJECTS--------------*/
 
 .projects{
@@ -237,6 +248,22 @@ a{
     gap: 12px;
 }
 
+#p1{
+    animation: bounceInUp;
+    animation-duration: 1s;
+}
+
+#p2{
+    animation: bounceInUp;
+    animation-duration: 2s;
+}
+
+
+#p3{
+    animation: bounceInUp;
+    animation-duration: 3s;
+}
+
 /*------------CONTATO--------------*/
 
 .main4{
@@ -253,6 +280,11 @@ a{
     font-weight: 700;
     text-align: center;
     margin-top: 30px;
+}
+
+#email{
+    animation: pulse;
+    animation-duration: 3s;
 }
 
 .mail{

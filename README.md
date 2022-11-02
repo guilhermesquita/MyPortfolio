@@ -23,7 +23,10 @@ O site é composto por cinco seções:
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - HTML;
-- CSS
+- CSS;
+- JAVASCRIPT
+- SCROLLREVEAL;
+- ANIMATE.CSS
 
 ---
 
