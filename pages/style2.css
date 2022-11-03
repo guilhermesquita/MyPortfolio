@@ -321,15 +321,22 @@ a{
     font-size: 10px
 }
 
+/*------------ajustando weight dos textos--------------*/
+.mn-txt{
+    font-weight: 700;
+}
+
+
+
 
 
 /*------------SCROLLBAR--------------*/
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-thumb{
-    width: 5px;
+    width: 7px;
     background-color: #1E0E62;
 }
