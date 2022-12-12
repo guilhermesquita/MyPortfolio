@@ -69,7 +69,6 @@ a{
     font-size: 25px;
     width: 100%;
     gap: 50px;
-    /* visibility: hidden; */
 }
 
 .about{
@@ -127,6 +126,16 @@ a{
     
 }
 
+/*---------RESPONSIVO-TABLET-----------*/
+@media screen and (min-width: 483px) and (max-width: 1260px) {
+    .main2{
+        padding-left: 10%;
+    }
+    
+    #text-about{
+        width: 100%;
+    }
+}
 /*------------TECH STACK--------------*/
 
 #text-about3{
@@ -146,7 +155,7 @@ a{
     color: #42446E;
     font-size: 25px;
     width: 100%;
-    gap: 120px;
+    gap: 15px;
 }
 
 .stacks{
@@ -155,6 +164,7 @@ a{
     flex-wrap: wrap;
     gap: 60px;
     width: 765px;
+    margin-bottom: 12px;
 }
 
 #stack1{
@@ -165,6 +175,17 @@ a{
 #stack2{
     animation: bounceInUp;
     animation-duration: 3s;
+}
+
+
+@media screen and (min-width: 483px) and (max-width: 1260px) {
+    .main3{
+        padding-left: 25px;
+        padding-top: 1px;
+    }
+    #text-about3{
+        width: 100%;
+    }
 }
 
 /*------------PROJECTS--------------*/
@@ -275,6 +296,15 @@ a{
     animation-duration: 3s;
 }
 
+@media screen and (min-width: 483px) and (max-width: 1260px) {
+    .projects{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
 /*------------CONTATO--------------*/
 
 .main4{
@@ -338,6 +368,15 @@ a{
 }
 
 
+@media screen and (min-width: 483px) and (max-width: 1284px) {
+    .main4{
+        padding-left: 10px;
+        width: 100%;
+    }
+    #ftr{
+        width: 100%;
+    }
+}
 
 
 
