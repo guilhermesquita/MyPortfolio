@@ -296,12 +296,32 @@ a{
     animation-duration: 3s;
 }
 
-@media screen and (min-width: 483px) and (max-width: 1260px) {
+@media screen and (min-width: 808px) and (max-width: 1260px) {
     .projects{
         display: flex;
         justify-content: center;
     }
 
+}
+
+@media screen and (min-width: 280px) and (max-width: 807px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pj{
+        width: 98vw;
+        height: 60%;
+    }
+    #p3{
+        width: 98vw;
+        height: 60%;
+    }
+    .main3{
+        margin-left: 30px;
+        padding-left: 0;
+    }
 }
 
 
