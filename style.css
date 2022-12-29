@@ -25,6 +25,11 @@ header{
     width: 100%;
 }
 
+span#burger{
+    display: none;
+    cursor: pointer;
+}
+
 .img{
     margin-top: 15px;
 }
@@ -70,10 +75,42 @@ a{
     visibility: hidden;
 }
 
+.main p {
+    width: 34%;
+}
+
 .guirmes{
         background: -webkit-linear-gradient(left, #13B0F5 0%, #E70FAA 100%);
         background: linear-gradient(to right, #13B0F5 0%, #E70FAA 100%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 58px) and (max-width: 862px) {
+    span#burger{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .main{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main p{
+        font-size: 100%;
+        min-width: 70vh;
+        text-align: center;
+    }
+    .main img{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
 }
