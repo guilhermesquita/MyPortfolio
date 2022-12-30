@@ -19,10 +19,8 @@
                 <img src="icons/logo2.png" height="60px" />
             </section>
 
-            <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
-
             <article id="navegation">
-                <menu class="links" id="menuItens">
+                <menu class="links">
                     <a href="">Home</a>
                     <a href="pages/about.html">About</a>
                     <a href="pages/techstack.html">Tech Stack</a>
@@ -36,6 +34,15 @@
                     <a href="https://www.linkedin.com/in/guilhermesquita/" target="_blank"><img src="icons/linkedin.svg" class="social"></a>
                 </nav>
 
+                <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+
+                <menu class="links" id="menuItens" onmouseleave="closeMenu()">
+                    <a href="">Home</a>
+                    <a href="./pages/about.html" >About</a>
+                    <a href="./pages/techstack.html" >Tech Stack</a>
+                    <a href="./pages/projects.html" >Projects</a>
+                    <a href="./pages/contact.html" >Contact</a>
+                </menu>
                 
             </article>
         </header>

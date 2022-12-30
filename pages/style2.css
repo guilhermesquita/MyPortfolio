@@ -56,6 +56,15 @@ a{
     gap: 35px;
 }
 
+menu#menuItens{
+    display: none;
+}
+
+span#burger{
+    display: none;
+    cursor: pointer;
+}
+
 /*------------ABOUT ME--------------*/
 
 .main2{
@@ -409,4 +418,47 @@ a{
 ::-webkit-scrollbar-thumb{
     width: 7px;
     background-color: #1E0E62;
+}
+
+@media screen and (min-width: 58px) and (max-width: 862px) {
+    span#burger{
+        display: block;
+    }
+    menu#menuItens{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        background-color: rgb(238, 233, 239);
+        height: 100vh;
+        z-index: 1;
+        font-size: 40px;
+        visibility: hidden;
+    }
+
+    menu#menuItens a {
+        border-bottom: 2px solid rgb(0, 0, 0, .05);
+    }
+    .links{
+        display: none;
+    }
+    .main{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main p{
+        font-size: 100%;
+        min-width: 70vh;
+        text-align: center;
+    }
+    .main img{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
 }

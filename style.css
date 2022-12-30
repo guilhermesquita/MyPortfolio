@@ -79,6 +79,10 @@ a{
     width: 34%;
 }
 
+menu#menuItens{
+    display: none;
+}
+
 .guirmes{
         background: -webkit-linear-gradient(left, #13B0F5 0%, #E70FAA 100%);
         background: linear-gradient(to right, #13B0F5 0%, #E70FAA 100%);
@@ -90,6 +94,21 @@ a{
 @media screen and (min-width: 58px) and (max-width: 862px) {
     span#burger{
         display: block;
+    }
+    menu#menuItens{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        background-color: rgb(238, 233, 239);
+        height: 100vh;
+        z-index: 1;
+        font-size: 40px;
+        visibility: hidden;
+    }
+
+    menu#menuItens a {
+        border-bottom: 2px solid rgb(0, 0, 0, .05);
     }
     .links{
         display: none;

@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="shortcut icon" href="../icons/icon.svg" type="image/x-icon">
     <title>Portfólio - Guilherme Mesquita</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+
 </head>
 
 <body>
@@ -22,9 +25,9 @@
                 <nav class="links">
                     <a href="../index.html">Home</a>
                     <a href="">About</a>
-                    <a href="techstack.html">Tech Stack</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="./techstack.html">Tech Stack</a>
+                    <a href="./projects.html">Projects</a>
+                    <a href="./contact.html">Contact</a>
                 </nav>
 
                 <nav>
@@ -35,6 +38,17 @@
                     <a href="https://www.linkedin.com/in/guilhermesquita/" target="_blank"><img
                             src="../icons/linkedin.svg" class="social"></a>
                 </nav>
+
+                <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+
+                <menu class="links" id="menuItens" onmouseleave="closeMenu()">
+                    <a href="../index.html">Home</a>
+                    <a href="./about.html" >About</a>
+                    <a href="./techstack.html" >Tech Stack</a>
+                    <a href="./projects.html" >Projects</a>
+                    <a href="./contact.html" >Contact</a>
+                </menu>
+
             </article>
         </header>
 

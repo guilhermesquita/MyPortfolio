@@ -20,11 +20,14 @@ function clickMenu(){
         itens.style.display = 'none'
     }else{
         itens.style.display = 'flex'
+        itens.style.visibility = 'visible'
         itens.style.flexDirection = 'column'
         itens.style.gap = '10px'
         itens.style.marginTop = '8px'
+        itens.style.alignItems = 'center'
     }
+}
 
-
-
+function closeMenu(){
+    itens.style.display = 'none'
 }
