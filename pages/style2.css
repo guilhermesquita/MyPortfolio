@@ -312,6 +312,7 @@ span#burger{
     .projects{
         display: flex;
         justify-content: center;
+        margin-left: 75%;
     }
 
 }
@@ -321,6 +322,7 @@ span#burger{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 75%;
     }
     .pj{
         width: 98vw;
